@@ -1,7 +1,6 @@
 FROM centos:latest
 
-MAINTAINER kihi
-
+MAINTAINER Kihi
 RUN set -x \
  && yum -y update \
  && yum clean all
